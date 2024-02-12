@@ -1,0 +1,19 @@
+<div class="container custom-container mb-5">
+    <div class="col-md-12">
+      <h3 class="mb-3 text-center">Login</h3>
+  
+      <div class="mb-3">
+        <input type="text" [(ngModel)]="loginDetails.username" class="form-control" placeholder="Username">
+      </div>
+      <div class="mb-3">
+        <!-- Ensure ngModel is correctly bound to loginDetails.password -->
+        <input type="password" [(ngModel)]="loginDetails.password" class="form-control" placeholder="Password">
+      </div>
+      <div *ngIf="errorMessage" class="text-danger mb-3">{{ errorMessage }}</div>
+  
+      <div>
+        <button class="btn btn-primary btn-lg btn-block" (click)="login()">Login</button>
+      </div>
+    </div>
+</div>
+  

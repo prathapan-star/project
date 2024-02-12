@@ -1,0 +1,32 @@
+::ng-deep .navbar.navbar-expand-sm {
+    height: 80px !important;
+    background-color: aqua;
+}
+#card1{
+    height: 5px;
+    width: 5px;
+}
+a:hover{
+    color:rgb(95, 70, 70)
+}
+#title1{
+    margin-left: 12%;
+}
+nav {
+    width:89%;
+//   padding: 10px 10px 20px 10px;
+//   border: 1px solid #BFBFBF;
+
+// margin-right: 200px;
+}
+#demo {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.nav-item{
+    padding-left: 60px;
+}
+.bi {
+    font-size: 1.5rem;
+    padding-right: 5px;
+    color: rgb(231, 184, 82);
+}

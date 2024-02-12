@@ -1,0 +1,52 @@
+<div class="container custom-container-2 mt-5">
+ 
+    <div class="no-data text-center" *ngIf="Admins.length == 0">
+        <p>There are no restaurants added yet!</p>
+        <button type="submit" class="btn btn-outline-primary" routerLink="/admin">
+            Add Restaurant
+        </button>
+    </div>
+    <div *ngIf="Admins.length != 0">
+        <h3 class="mb-3 text-center">Restaurant List</h3>
+        <div class="col-md-12">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Locations</th>
+                        <th scope="col">Ratings</th>
+                        <th scope="col">Images</th>
+                        <th scope="col">Cuisines</th>
+                        <th scope="col">Food Items</th>
+                        <th>Actions</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let e of Admins">
+                        <td>{{ e.id }}</td>
+                        <td>{{ e.name }}</td>
+                        <td>{{ e.location }}</td>
+                        <td>{{ e.rating }}</td>
+ 
+                        <td id="img1"><img [src]="e.img" alt="Restaurant Image" style="height: 100px; width: 100px;">
+                        </td>
+                        <td>{{ e.cuisines }}</td>
+                        <td>{{ getFoodItemsAsString(e.foodItems) }}</td>
+                        <td>
+                            <span class="edit btn btn-sm btn-outline-success me-2 "
+                                routerLink="/edit-admin/{{ e.id }}">Edit
+                            </span>
+                        </td>
+                        <td>
+                            <span class="delete edit btn btn-sm btn-outline-danger" (click)="deleteRest(e.id)">
+                                Delete
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

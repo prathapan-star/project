@@ -1,0 +1,42 @@
+.cart-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+ 
+  /* CSS for the cart title */
+  .cart-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+ 
+  /* CSS for the cart table */
+  .cart-table {
+    width: 100%;
+  }
+ 
+  /* CSS for the table header */
+  .cart-header {
+    background-color: #f0f0f0;
+  }
+ 
+  /* CSS for the table cells */
+  .cart-cell {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+ 
+  /* CSS for the item name */
+  .item-name {
+    font-weight: bold;
+  }
+ 
+  /* CSS for the item price */
+  .item-price {
+    color: #888;
+  }  
+  #demo {
+    margin-left: 635px;
+  }

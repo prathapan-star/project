@@ -1,0 +1,40 @@
+<div id="search">
+    <button id="btn2" class="btn btn-success" routerLink="/rest-list" >View-Restaurant</button>
+</div>
+<div class="container custom-container mb-5">
+    <div class="col-md-12">
+        <!-- <h3 ><blockquote>Create Restaurant</blockquote></h3> -->
+ 
+        <div class="mb-3">
+            <input type="text" [(ngModel)]="RestDetails.name" class="form-control" placeholder="Restaurant Name">
+        </div>
+        <div class="mb-3">
+            <input type="text" [(ngModel)]="RestDetails.location" class="form-control" placeholder="Locations">
+        </div>
+        <div class="mb-3">
+            <input type="number" [(ngModel)]="RestDetails.rating" class="form-control" placeholder="Ratings">
+        </div>
+        <div class="mb-3">
+            <input type="text" [(ngModel)]="RestDetails.img" class="form-control" placeholder="Image - URL">
+        </div>
+        <div class="mb-3">
+            <input type="text" [(ngModel)]="cuisinesInput" class="form-control" placeholder="Cuisines">
+        </div>
+        <fieldset>
+            <legend class="mb-3 text-center" style="color: black; size:7px;"><blockquote>FOOD-MENUS</blockquote></legend>
+            <div class="mb-3">
+                <input type="text" [(ngModel)]="foodItemName" class="form-control" placeholder="Food Item Name">
+            </div>
+            <div class="mb-3">
+                <input type="number" [(ngModel)]="foodItemPrice" class="form-control" placeholder="Price">
+            </div>
+            <div class="mb-3">
+                <input type="text" [(ngModel)]="foodItemImage" class="form-control" placeholder="Image-URL">
+            </div>
+        </fieldset>
+        <div id="btn1">
+            <button id="btn3" class="btn btn-secondary" (click)="addFoodItem()">Add Food Item</button>
+            <button id="btn4" class="btn btn-warning btn-lg btn-block" (click)="addRest()">Create Restaurant</button>
+        </div>
+    </div>
+</div>

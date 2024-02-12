@@ -1,0 +1,33 @@
+<!-- cart.component.html -->
+<!-- <div>
+    <h3>Your Cart</h3>
+    <ul>
+      <li *ngFor="let item of cartItems">{{ item.name }} - {{ item.price }}</li>
+    </ul>
+   
+  </div> -->
+  <div class="cart-container">
+    <h3 class="cart-title">Your Cart</h3>
+    <table class="cart-table">
+        <thead class="cart-header">
+            <tr>
+                <th class="cart-cell">Item</th>
+                <th class="cart-cell">Price</th>
+                <!-- <th class="cart-cell">total</th> -->
+            </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of cartItems" class="cart-row">
+              <td class="cart-cell item-name">{{ item.name }}</td>
+              <td class="cart-cell item-price">{{ item.price }}</td>
+              <!-- <td>  ${{ totalAmount }}</td> -->
+          </tr>
+          
+      </tbody>
+        <!-- <tfoot> -->
+       
+      <!-- </tfoot> -->
+    </table>
+    <div id="demo">  ${{ totalAmount }}</div>
+  </div>
+  
