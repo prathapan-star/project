@@ -2,6 +2,14 @@ img {
     width:auto;
     height: 220px;
 }
+// #img1{
+//     width:100px;
+//     height:100px;
+// }
+.footer {
+    height: 100px;
+    background-color: black;
+}
 #demo {
     display:flex;
     gap:15px;
@@ -23,9 +31,9 @@ img {
     flex-wrap:wrap;
     justify-content: space-evenly;
     margin-left: 12%;
-    
+   
 }
-.bwoZPF {
+.title {
     margin: 0px;
     -webkit-font-smoothing: antialiased;
     font-family: Basis_Grotesque_Pro;
@@ -46,7 +54,25 @@ img {
     font-weight: 500;
     margin-left: 12%;
     margin-top: 40px;
+    //background-color: rgb(243, 242, 241);
+    margin-left: 0;
+    margin-top: 0%;
+    height: 100px;
+    padding-bottom: 20px;
 }
+.img-alt {
+    width: 10px;
+    height: 10px;
+}
+#div2 {
+    //background-color: rgb(243, 242, 241);
+    width: 100%;
+   // margin-left: 11%;
+    //margin-left: 10%;
+}
+// #div3 {
+//     background-color: orange;
+// }
 // .card{
 //     // box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 //     // box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
@@ -56,7 +82,16 @@ img {
     transform: translateY(-8px);
     transition: box-shadow 0.3s, transform 0.3s;
 }
+#head {
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    margin-left: 11%;
+    padding-top: 20px;
+}
 #div1 {
+    margin-top: 0%;
+    padding-top: 20px;
     width: 80%;
     height: 40px;
     justify-content: center;
@@ -78,12 +113,12 @@ img {
     font-size: 22px;
     color: rgb(49, 48, 48);
     font-weight: 400;
-
+ 
 }
-
+ 
     .cHWThC {
-
-
+ 
+ 
    margin: 0px;
     -webkit-font-smoothing: antialiased;
     font-family: Basis_Grotesque_Pro_Bold;
@@ -99,7 +134,7 @@ img {
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     }
-
+ 
 .dnXOKm {
         -webkit-font-smoothing: antialiased;
         font-family: Basis_Grotesque_Pro;
@@ -115,9 +150,8 @@ img {
         -webkit-line-clamp: 1;
         -webkit-box-orient: vertical;
 }
-
+ 
 #img1{
     height: 18px;
     width: 18px;
 }
-

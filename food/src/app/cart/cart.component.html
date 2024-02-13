@@ -6,6 +6,7 @@
     </ul>
    
   </div> -->
+  <div id="box">
   <div class="cart-container">
     <h3 class="cart-title">Your Cart</h3>
     <table class="cart-table">
@@ -13,21 +14,28 @@
             <tr>
                 <th class="cart-cell">Item</th>
                 <th class="cart-cell">Price</th>
-                <!-- <th class="cart-cell">total</th> -->
+                <th class="cart-cell"></th> 
             </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let item of cartItems" class="cart-row">
+          <tr *ngFor="let item of cartItems; let i = index" class="cart-row">
               <td class="cart-cell item-name">{{ item.name }}</td>
               <td class="cart-cell item-price">{{ item.price }}</td>
-              <!-- <td>  ${{ totalAmount }}</td> -->
+              <td class="cart-cell ">
+                <button  (click)="removeItem(i)" class="btn btn-success">Remove</button>
+              </td>
           </tr>
           
       </tbody>
-        <!-- <tfoot> -->
-       
-      <!-- </tfoot> -->
+      <tfoot>
+        <tr>
+          <th>TOTAL-AMOUNT</th>
+          <td [attr.colspan]>Rs.{{ totalAmount }}</td>
+        </tr>
+      </tfoot>
+      
     </table>
-    <div id="demo">  ${{ totalAmount }}</div>
+    <div id="demo">  </div>
   </div>
+</div>
   

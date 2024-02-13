@@ -21,4 +21,13 @@ export class CartComponent {
       this.totalAmount = amount;
     });
   }
+
+  removeItem(index: number): void {
+    
+    if (index >= 0 && index < this.cartItems.length) {
+      const removedItem = this.cartItems.splice(index, 1);
+      this.totalAmount -= removedItem[0].price;
+    }
+  }
+
 }

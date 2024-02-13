@@ -1,59 +1,19 @@
 {
   "admins": [
     {
-      "id": "c52d",
-      "name": "kfc",
-      "location": "adayar chennau",
-      "rating": 7,
-      "img": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xs/CAT158.jpg?ver=39.22",
-      "cuisines": "fried chicken"
-    },
-    {
-      "id": "79a8",
-      "name": "Dominos",
-      "location": "Madurai",
-      "rating": 8,
-      "img": "https://upload.wikimedia.org/wikipedia/commons/5/52/Dominos_Pizza_in_Gothenburg.jpg",
-      "cuisines": "Pizzas, Fries"
-    },
-    {
-      "id": "ca1a",
-      "name": "Pizza-Hut",
-      "location": "Covai",
-      "rating": 7,
-      "img": "https://www.pymnts.com/wp-content/uploads/2023/08/Pizza-Hut.jpg",
-      "cuisines": "Pizza "
-    },
-    {
-      "id": "4c9b",
-      "name": "Annaporna",
-      "location": "covai",
-      "rating": 9,
-      "img": "https://imgcld.yatra.com/ytimages/image/upload/t_seo_Hotel_w_930_h_550_c_fill_g_auto_q_40_f_jpg/v7503290403/Hotel/00184950/3A1A8775_HDR_Edit_copy_3bvaXh.jpg",
-      "cuisines": "meals, veg"
-    },
-    {
-      "id": "3fcd",
-      "name": "Geeththam",
-      "location": "Chennai",
-      "rating": 6,
-      "img": "https://content3.jdmagicbox.com/comp/chennai/b8/044pxx44.xx44.120702152202.z3b8/catalogue/geetham-veg-restaurant-thoraipakkam-chennai-south-indian-restaurants-at0vtgrws9.jpg",
-      "cuisines": "Mini-Diffins"
-    },
-    {
       "name": "A2B Adayar Ananda Bavan",
-      "location": "adayar chennai",
-      "rating": 9.1,
-      "img": "https://content.jdmagicbox.com/comp/chennai/h7/044pxx44.xx44.130405113636.n2h7/catalogue/a2b-adyar-ananda-bhavan-pondy-bazaar-thyagaraya-nagar-chennai-north-indian-restaurants-sctq6sk8ye.jpg",
+      "location": "adayar chennai 625008",
+      "rating": 4.1,
+      "img": "https://d2dzi65yjecjnt.cloudfront.net/729123-1.jpg",
       "cuisines": "south indian",
       "foodItems": [
         {
-          "name": "dosa",
-          "price": 197
+          "name": "veg-pulav",
+          "price": 199
         },
         {
-          "name": "dosa",
-          "price": 190
+          "name": "Hyderbadi-Briyani",
+          "price": 200
         },
         {
           "name": "idly",
@@ -63,30 +23,29 @@
       "id": "e13e"
     },
     {
-      "id": "1a95",
-      "name": "kauhd",
-      "location": "ajdhka",
-      "rating": 8,
+      "name": "Geetham-Veg",
+      "location": "OMR,PTC quarters, Chennai",
+      "rating": 3.7,
       "img": "https://content3.jdmagicbox.com/comp/chennai/b8/044pxx44.xx44.120702152202.z3b8/catalogue/geetham-veg-restaurant-thoraipakkam-chennai-south-indian-restaurants-at0vtgrws9.jpg",
-      "cuisines": "ksdu",
+      "cuisines": "Mini-Diffin",
       "foodItems": [
         {
-          "name": "jas",
-          "price": 13
+          "name": "Dosa",
+          "price": 99
         },
         {
-          "name": "jfhs",
-          "price": 78
+          "name": "Idly",
+          "price": 19
         }
-      ]
+      ],
+      "id": "1a95"
     },
     {
-      "id": "bc06",
-      "name": "geetham veg",
-      "location": "thoraipakkam chennai",
-      "rating": 7,
-      "img": "https://content3.jdmagicbox.com/comp/chennai/b8/044pxx44.xx44.120702152202.z3b8/catalogue/geetham-veg-restaurant-thoraipakkam-chennai-south-indian-restaurants-at0vtgrws9.jpg",
-      "cuisines": "south india,  pure veg",
+      "name": "Tullijah Hotel",
+      "location": "No - 6 ,Porur chennai .",
+      "rating": 3.1,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrbwSe1PoSxxkuBKHdfvU40_jfEjbJa9Q_36PRyEdM5PQWyRP6IOdAlZYdX-Azw1CsTj0&usqp=CAU",
+      "cuisines": "South india",
       "foodItems": [
         {
           "name": "dosa",
@@ -99,6 +58,217 @@
         {
           "name": "veg rice",
           "price": 120
+        }
+      ],
+      "id": "bc06"
+    },
+    {
+      "id": "7dd5",
+      "name": "KFC Chicken",
+      "location": "Pallikaranai Marshland, Pallikaranai, Chennai",
+      "rating": 4.6,
+      "img": "https://media-cdn.tripadvisor.com/media/photo-s/06/a4/b3/f2/kfc-kentucky-fried-chicken.jpg",
+      "cuisines": "Fried-Chicken",
+      "foodItems": [
+        {
+          "name": "Bucket-Chicken",
+          "price": 549,
+          "image": "https://www.mashed.com/img/gallery/popular-kfc-menu-items-ranked-worst-to-best/intro-1622140749.jpg"
+        },
+        {
+          "name": "Wraps",
+          "price": 149,
+          "image": "https://tb-static.uber.com/prod/image-proc/processed_images/b55ca7ad0268841e8dfe094d2326ba8e/c9252e6c6cd289c588c3381bc77b1dfc.jpeg"
+        },
+        {
+          "name": "Wings",
+          "price": 99,
+          "image": "https://kfcjamaica.com/sites/default/files/IG-wing.png"
+        }
+      ]
+    },
+    {
+      "id": "694b",
+      "name": "Mcdonald's thoraipakkam",
+      "location": " OMR, Mootakaran Chavadi, Thoraipakkam",
+      "rating": 4.4,
+      "img": "https://lh5.googleusercontent.com/p/AF1QipOr9OVl52rN6s-ya33_1z0bHRTerfenlYsZL-JH",
+      "cuisines": "Burgers",
+      "foodItems": [
+        {
+          "name": "Double-Plate ",
+          "price": 89,
+          "image": ""
+        },
+        {
+          "name": "Cheese-Burger",
+          "price": 99,
+          "image": ""
+        },
+        {
+          "name": "Toasta",
+          "price": 89,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "8b2b",
+      "name": "Barbeque Nation- OMR",
+      "location": "7th Floor ,Avadi ,T-Nagar",
+      "rating": 4.1,
+      "img": "https://lh5.googleusercontent.com/p/AF1QipNql9Vlfq4tqgvf28_Hqb7xQDCwP6Mxu68f84L8=w480-h300-k-n",
+      "cuisines": "Unlimited",
+      "foodItems": [
+        {
+          "name": "Dum-Briyani",
+          "price": 399,
+          "image": ""
+        },
+        {
+          "name": "Desserts",
+          "price": 699,
+          "image": ""
+        },
+        {
+          "name": "Water-Bottle",
+          "price": 20,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "6774",
+      "name": "Salem RR Briyani",
+      "location": "345 - Sudar salai ,Oragadam , Chennai .",
+      "rating": 4.8,
+      "img": "https://b.zmtcdn.com/data/pictures/4/20108914/3ca3203897d6515752f8fb773700326d.jpeg?fit=around|960:500&crop=960:500;*,*",
+      "cuisines": "Briyani",
+      "foodItems": [
+        {
+          "name": "Plain",
+          "price": 99,
+          "image": ""
+        },
+        {
+          "name": "Veg",
+          "price": 179,
+          "image": ""
+        },
+        {
+          "name": "Non-Veg",
+          "price": 349,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "6d9b",
+      "name": "Mani's Tumm Briyani",
+      "location": "OMR road , Thoraipakkam , Chennai.",
+      "rating": 3.9,
+      "img": "https://b.zmtcdn.com/data/pictures/5/20416895/36d1a3665205e4880b2b556f56b82196.jpg",
+      "cuisines": "Briyani",
+      "foodItems": [
+        {
+          "name": "Veg",
+          "price": 149,
+          "image": ""
+        },
+        {
+          "name": "Non-Veg",
+          "price": 349,
+          "image": ""
+        },
+        {
+          "name": "Beef-65",
+          "price": 99,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "a75a",
+      "name": "Power - Hotel",
+      "location": "4th street , KK Nagar , Madurai.",
+      "rating": 4.2,
+      "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/f0/72/b6/power-hotel.jpg?w=700&h=-1&s=1",
+      "cuisines": "Dinner",
+      "foodItems": [
+        {
+          "name": "Porrata",
+          "price": 40,
+          "image": ""
+        },
+        {
+          "name": "Omlette",
+          "price": 25,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "f96f",
+      "name": "Taj-Hotel",
+      "location": "99, Pykara , madurai.",
+      "rating": 4.1,
+      "img": "https://media-cdn.tripadvisor.com/media/photo-s/0d/f2/5b/85/this-is-the-restaurant.jpg",
+      "cuisines": "Starters",
+      "foodItems": [
+        {
+          "name": "BBQ",
+          "price": 99,
+          "image": ""
+        },
+        {
+          "name": "Chicken-65",
+          "price": 79,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "31ea",
+      "name": "BenHas - Hotel",
+      "location": "4/99 Indhra Nagar , Kappalur",
+      "rating": 4.4,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfHizzt4fkwbkDju_uD24i27zIMynFGNGICNjNf870gg&s",
+      "cuisines": "Dosa",
+      "foodItems": [
+        {
+          "name": "Plain",
+          "price": 100,
+          "image": ""
+        },
+        {
+          "name": "",
+          "price": 0,
+          "image": ""
+        },
+        {
+          "name": "Masala",
+          "price": 150,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "f13e",
+      "name": "Hotel -Anggerk",
+      "location": "78 , Sivan Nagar , Madurai.",
+      "rating": 3.6,
+      "img": "https://cilacap.org/wp-content/uploads/2022/01/hotel-melati-murah-di-cilacap-1.jpg",
+      "cuisines": "Smoothies",
+      "foodItems": [
+        {
+          "name": "Infused",
+          "price": 899,
+          "image": ""
+        },
+        {
+          "name": "BBQ",
+          "price": 549,
+          "image": ""
         }
       ]
     }

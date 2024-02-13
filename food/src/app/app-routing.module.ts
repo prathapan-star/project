@@ -8,7 +8,8 @@ import { AdminComponent } from './admin/admin.component';
 import { EditAdminComponent } from './edit-admin/edit-admin.component';
 import { RestListComponent } from './rest-list/rest-list.component';
 import { SignupComponent } from './signup/signup.component';
-//import { LoginComponent } from './login/login.component';
+import { SigninComponent } from './signin/signin.component';
+
 //import { SignupComponent } from './signup/signup.component';
 //import { LoginComponent } from './login/login.component';
 const routes: Routes = [
@@ -19,7 +20,7 @@ const routes: Routes = [
   {path:'home',component:HomeComponent},
   {path:'rest-list',component:RestListComponent},
   {path:'admin',component:AdminComponent},
-//{path:'login',component:LoginComponent},
+  {path:'signin',component:SigninComponent},
  // { path: 'login', component: LoginComponent },
 //{ path: 'signup', component: SignupComponent },
 {path:'signup',component:SignupComponent},

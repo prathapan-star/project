@@ -4,6 +4,15 @@
     padding: 10px;
     background-color: #f9f9f9;
   }
+  #box {
+    margin-top: 50px;
+    //background-color: blueviolet;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+  }
  
   /* CSS for the cart title */
   .cart-title {
@@ -38,5 +47,5 @@
     color: #888;
   }  
   #demo {
-    margin-left: 635px;
+    margin-left: 600px;
   }

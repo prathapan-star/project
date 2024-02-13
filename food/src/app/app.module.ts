@@ -21,10 +21,11 @@ import { AngularMaterialModule } from './material.module';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { Routes, RouterModule, Router, ROUTES } from '@angular/router';
 import { SignupComponent } from './signup/signup.component';
+import { SigninComponent } from './signin/signin.component';
 @NgModule({
   declarations: [
     AppComponent,
-    // SigninComponent,
+    //SigninComponent,
     CartComponent,
     NavComponent,
     SearchComponent,
@@ -34,7 +35,8 @@ import { SignupComponent } from './signup/signup.component';
     RestListComponent,
     EditAdminComponent,
     BootstrapmodalComponent,
-    SignupComponent
+    SignupComponent,
+    SigninComponent
   ],
   imports: [
     BrowserModule,

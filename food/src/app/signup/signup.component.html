@@ -1,6 +1,7 @@
+<div id="box">
 <div class="container custom-container mb-5">
     <div class="col-md-12">
-        <h3 class="mb-3 text-center">Create User</h3>
+        <h3 class="mb-3 text-center"><strong></strong></h3>
 
         <div class="mb-3">
             <input type="text" [(ngModel)]="SignupDetails.name" class="form-control" placeholder="Name">
@@ -12,8 +13,12 @@
             <input type="text" [(ngModel)]="employeeDetails.phone" class="form-control" placeholder="Phone">
         </div> -->
         <div>
-            <button class="btn btn-warning btn-lg btn-block" (click)="addSignup(SignupDetails)">Sign-Up</button>
+            <button class="btn btn-success btn-lg btn-block" (click)="addSignup(SignupDetails)">Sign-Up</button>
+        </div><br>
+        <div id="link">
+            Already have an account? <a routerLink="/signin">login</a> here
         </div>
     </div>
+</div>
 </div>
   
